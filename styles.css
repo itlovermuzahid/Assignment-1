@@ -21,6 +21,7 @@ body{
 }
 
 .btn-resume{
+    cursor: pointer;
     font-family: "Azeret Mono", monospace;
     box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
@@ -79,6 +80,7 @@ justify-content: center;
    color: rgb(255, 255, 255);
   font-size: 15px;
   font-family: "Azeret Mono", monospace;
+  cursor: pointer;
 }
 
 .text-p{
@@ -86,6 +88,7 @@ justify-content: center;
     opacity: 0.7;
     font-size: 13px;
     line-height: 20px;
+    margin-bottom: 15px;
     
 }
 /* Tile sectiom */
@@ -149,7 +152,10 @@ margin: auto;
     width: 110px;
     border-radius: 3px;
     font-family: "Azeret Mono", monospace;
-    opacity: 0.7;}
+    opacity: 0.7;
+cursor: pointer;
+}
+    
 
     .title-content-2{
         background-color: white;
