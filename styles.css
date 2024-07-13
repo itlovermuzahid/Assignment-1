@@ -349,14 +349,15 @@ font-size: small;
 
 
 .support-image{
-    background:url("assets/handshake.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) , url('assets/handshake.jpg');
     height: 250px;
     width: 922px;
     margin: auto;
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    position: relative;
     
     
 }
