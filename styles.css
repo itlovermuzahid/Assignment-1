@@ -2,11 +2,11 @@
 
  /* body style */
 body{
-    
-    
+     
     font-family: "Azeret Mono", monospace;
 
 }
+
 
 /* Navbar style */
 
@@ -85,5 +85,199 @@ justify-content: center;
 
     opacity: 0.7;
     font-size: 16px;
+    
+}
+/* Tile sectiom */
+
+.title-section{
+    border-radius: 16px;
+background-color: rgba(13, 19, 33, 0.02);
+margin-top: 40px;
+width: 1050px;
+margin: auto;
+padding: 20px 0px 20px 0px;
+
+}
+
+.main-div{
+width: 940px;
+margin: auto;
+
+
+}
+.title{
+    width: 840px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.title-content{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+.title-text{
+
+    font-weight: 700;
+    opacity: .8;
+    height: 200px;
+    width: 420px;
+
+
+}
+.title-img{
+    width: 200px;
+    height: 170px;
+    background-size: cover;
+}
+
+.title-p{
+    margin: 20px 0px 30px 0px;
+    opacity: 0.5;
+    font-size: 13px;
+
+}
+.title-btn{
+    padding: 7px;
+    width: 110px;
+    border-radius: 3px;
+    font-family: "Azeret Mono", monospace;
+    opacity: 0.7;}
+
+    .title-content-2{
+        background-color: white;
+        padding: 10px;
+        display: flex;
+      justify-content: space-between;
+      justify-items: center;
+      align-items: center;
+      width: 920px;
+      margin: auto;
+
+
+    }
+
+    .title-content-3{
+        background-color: white;
+        padding: 10px;
+        display: flex;
+      justify-content: space-between;
+      justify-items: center;
+      align-items: center;
+      width: 920px;
+      margin: auto;
+    
+    }
+
+    .title-content-extra{
+
+        margin-top: 20px;
+        
+
+    }
+
+.inpiration{
+   width: 1000px; 
+   margin: auto;
+   margin-top: 50px;
+
+    }
+
+.inspiration-text{
+ width: 800px;
+ margin: auto;
+ justify-items: center;
+ text-align: center;
+ margin-bottom: 40px;
+
+    }
+.inpiration-video{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width:650px;
+    padding: 8px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 340px;
+    margin: auto;
+
+}
+.video{
+    border-radius: 13px;
+}
+
+/* Target Styles */
+
+.target-main{
+margin-top: 60px;
+}
+
+.target-title{
+
+width: 900px;
+margin: auto;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.target-parrent{
+width: 1000px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+justify-items: center;
+
+}
+
+
+.target-text-p{
+    opacity: 0.7;
+    font-size: smaller;
+    line-height: 22px;
+}
+
+.target-learn{
+font-size: small;
+color: rgb(13, 19, 33);
+
+}
+
+.target-contain-1{
+    width: 250px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 10px;
+    align-items:center;
+    justify-content: center;
+    border-radius: 14px;
+    
+    }
+
+ .target-contain-2{
+    width: 250px;
+    padding: 10px;
+    align-items:center;
+    justify-content: center;
+    background: rgba(0, 76, 232, 0.05);
+    border-radius: 14px;
+}
+
+.target-contain-3{
+    width: 250px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 10px;
+    align-items:center;
+    justify-content: center;
+    border-radius: 14px;
     
 }
